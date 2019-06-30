@@ -1,0 +1,274 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.amp{
+    font-size: 50px;
+}
+
+.container{
+    margin: 0px 40px 0px 40px;
+}
+
+
+button{
+    padding: 25px 100px;
+    display: flex;
+    color: #fff;
+    background-color: rgb(9, 119, 116);
+    border: 1px solid;
+}
+/*HEADER*/
+header{
+    background-image: url('../img/sample2.jpg');
+    height: 700px;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header>nav>ul>li>a{
+    color: #fff;
+}
+
+header>.header-top-menu>ul{
+    display: flex;
+}
+
+
+.header-logo-right{
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header>.header-top-menu>ul>li>a{
+    padding-left: 40px;
+}
+
+.header-top-menu{
+    padding-top: 50px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+}
+
+.header-brand-info{
+    text-align: center;
+    padding-top: 230px;
+}
+
+.header-center-menu>ul{
+    display: flex;
+}
+
+.header-center-menu>ul>li{
+    margin: 0 auto;
+    padding-top: 185px;
+}
+
+.header-center-menu>ul>li>a{
+    border: 2px solid white;
+    padding: 20px 60px 20px 60px;
+}
+
+
+.header-first-p{
+    text-align: right;
+
+}
+
+.header-clip-path:after{
+    content: '';
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    background: #000;
+}
+
+
+/*FEATURED-ARTICLES*/
+h2{
+    text-align: center;
+}
+
+span{
+    font-weight: normal;
+}
+
+.featured-articles{
+    background-color: #F3F3F3;
+    padding-bottom: 50px;
+
+}
+
+.featured-articles-img{
+    background-image: url('../img/sample-1.jpg');
+    width: 50%;
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.featured-articles-p{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.featured-articles-p>p, .featured-articles-p>p{
+    margin-bottom: 50px;
+}
+
+
+
+.featured-articles-container{
+    display: flex;
+    padding-top: 30px;
+}
+
+.featured-articles-img>a, .featured-articles-con>a{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 550px;
+    border: 2px solid white;
+    color: #fff;
+}
+
+
+.featured-articles-img>p, .featured-articles-con>p{
+    position: absolute;
+    color: #fff;
+}
+
+.featured-articles-con{
+    background-image: url('../img/sample-2.jpg');
+    width: 50%;
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+/*ARTICLE*/
+.article{
+    background-color: #f3f3f3;
+}
+
+.article>article{
+    text-align: center;
+}
+
+.article-form>div>form>button{
+     display: inline-block;
+    color: #fff;
+    background-color: rgb(9, 119, 116);
+    border: 1px solid;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.article-form>div>form>input{
+    height: 30px;
+}
+
+.arctile-h2{
+    text-align: right;
+}
+
+.article-form>div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article-form>div>h2{
+    margin-right: 10px;
+}
+
+/*GALLERY*/
+.gallery>div>ul{
+    display: flex;
+
+}
+
+.gallery>div>ul>li{
+    margin-right: auto;
+}
+
+.gallery-img1{
+    background: url('../img/news-list-1.jpg');
+    width: 24%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.gallery-img2{
+    background: url('../img/news-list-2.jpg');
+    width: 24%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.gallery-img3{
+    background: url('../img/news-list-3.jpg');
+    width: 24%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.gallery-img4{
+    background: url('../img/news-list-4.jpg');
+    width: 24%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.gallery-but{
+  margin:0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+footer>nav>ul>div>li{
+    margin: 0px 10px 0px 10px;
+}
+
+footer>nav>ul>div>li>a{
+    color: #000;
+}
+
+footer>nav>ul{
+    display: flex;
+}
+
+.flex-right{
+    margin-right: auto;
+    color:#9e9e9e;
+}
+
+footer>nav>ul>li>a{
+    color:#000;
+    padding-left:20px;
+}
