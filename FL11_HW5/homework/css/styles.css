@@ -154,6 +154,10 @@ li {
 	font-weight: lighter;
 }
 
+li:hover{
+        background-color: #b8b8b8;
+}
+
 .posts>:nth-child(even) .post-article h2,
 .posts>:nth-child(even) .post-article>p {
 	text-align: right;
