@@ -13,7 +13,7 @@ c2=Number(prompt("input c(y)"));
 tmpx=(a1+b1)/2;
 tmpy=(a2+b2)/2;
 
-if(tmpx==c1 && tmpy==c2){
+if(tmpx===c1 && tmpy===c2){
     console.log(t);
 }
 else{
