@@ -1,0 +1,2 @@
+[0716/173355.115:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Недостаточно квот} Недостаточно квот на виртуальную память или файл подкачки для завершения требуемой операции. (0xc0000017)
+[0716/173355.162:ERROR:exception_snapshot_win.cc(98)] thread ID 3752 not found in process
